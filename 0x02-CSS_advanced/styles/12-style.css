@@ -19,8 +19,6 @@
 	--line-height-big: 1.8;
 	--section-header-align: center;
 	--section-tagline-transform: uppercase;
-	--section-title-margin: 0;
-	--section-title-color: var(--text-color);
 }
 
 html {
@@ -58,6 +56,8 @@ a {
 	font-family: var(--font-family-title);
 	text-transform: var(--section-tagline-transform);
 	font-weight: var(--font-weight-bold);
+	section-title-margin: 0;
+	section-title-color: var(--color-black);
 }
 
 .section-header {
