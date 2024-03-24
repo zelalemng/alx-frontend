@@ -20,8 +20,9 @@
 	--section-header-align: center;
 	--section-tagline-transform: uppercase;
 	--section-title-margin: 0;
-	--section-title-color: var(--text-color);
+	--section-title-color: var(--color-black);
 }
+
 
 html {
 	scroll-behavior: smooth;
@@ -64,21 +65,6 @@ a {
 
 .section-header {
 	text-align: var(--section-header-align);
-}
-
-body {
-	color: var(--text-color);
-}
-
-a {
-	color: var(-text-color);
-	text-decoration: none;
-	color: inherit;
-}
-
-.card-category,
-.section-tagline {
-	color: var(--color-primary);
 }
 
 .section-title {
